@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Konkhmer Sleokchher', cursive;
+}
+
+html{
+    --bg: #2F3D40;
+    --fundo: #455559;
+    --sombra: #182625;
+    --text: #dae2da;
+}
+
+#container{
+    background-color: var(--bg);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box{
+    background-color: var(--fundo);
+    width: 50%;
+    height: fit-content;
+    box-shadow: 5px 10px 2px var(--sombra);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text);
+}
+
+#box header {
+    text-align: center;
+    padding: 1em;
+}
+
+#box nav{
+    width: fit-content;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+nav input{
+    width: 100%;
+    text-align: center;
+    border: 2px solid var(--sombra);
+    border-radius: 10px;
+}
+
+nav button{
+    background-color: var(--sombra);
+    color: var(--text);
+    border-radius: 10px;
+    width: 40%;
+    border: none;
+}
