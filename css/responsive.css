@@ -1,0 +1,12 @@
+@media (max-width: 600px){
+    #box{
+        width: 70%;
+
+    }
+}
+
+@media (max-width: 600px){
+    #box{
+        width: 90%;
+    }
+}
